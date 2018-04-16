@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net45</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsAzure.Storage" Version="9.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Source\Repos\DelimitedStringParser\DelimitedStringParser.Bond\DelimitedStringParser.Bond.csproj" />
+    <ProjectReference Include="..\..\..\..\..\Source\Repos\DelimitedStringParser\DelimitedStringParser\DelimitedStringParser.csproj" />
+  </ItemGroup>
+
+</Project>
